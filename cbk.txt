@@ -1,0 +1,126 @@
+
+CBK@014-0236-STM008 MINGW64 ~/Desktop/demo
+$ git innit
+git: 'innit' is not a git command. See 'git --help'.
+
+The most similar command is
+        init
+
+CBK@014-0236-STM008 MINGW64 ~/Desktop/demo
+$ git init
+Initialized empty Git repository in C:/Users/cbk/Desktop/demo/.git/
+
+CBK@014-0236-STM008 MINGW64 ~/Desktop/demo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        cbk.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+CBK@014-0236-STM008 MINGW64 ~/Desktop/demo (master)
+$ git add cbk.txt
+
+CBK@014-0236-STM008 MINGW64 ~/Desktop/demo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   cbk.txt
+
+
+CBK@014-0236-STM008 MINGW64 ~/Desktop/demo (master)
+$ git commit -m
+error: switch `m' requires a value
+
+CBK@014-0236-STM008 MINGW64 ~/Desktop/demo (master)
+$ git commit -m
+error: switch `m' requires a value
+
+CBK@014-0236-STM008 MINGW64 ~/Desktop/demo (master)
+$ git commit -m "your message"
+[master (root-commit) f8ab4ac] your message
+ Committer: B K <CBK@dallasisd.org>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 cbk.txt
+
+CBK@014-0236-STM008 MINGW64 ~/Desktop/demo (master)
+$ git commit -m "Hello everyone"
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   cbk.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+CBK@014-0236-STM008 MINGW64 ~/Desktop/demo (master)
+$ git commit -m "your message"
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   cbk.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+CBK@014-0236-STM008 MINGW64 ~/Desktop/demo (master)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+CBK@014-0236-STM008 MINGW64 ~/Desktop/demo (master)
+$ git commit -m "your message"
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   cbk.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+CBK@014-0236-STM008 MINGW64 ~/Desktop/demo (master)
+$ git remote add
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+CBK@014-0236-STM008 MINGW64 ~/Desktop/demo (master)
+$ get push origin master
+bash: get: command not found
+
+CBK@014-0236-STM008 MINGW64 ~/Desktop/demo (master)
+$ git config--global user.email "chakra.mn1@gmail.com"
+git: 'config--global' is not a git command. See 'git --help'.
+
+CBK@014-0236-STM008 MINGW64 ~/Desktop/demo (master)
+$
